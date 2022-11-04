@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  max-width: 100vw;
+  background-color: #f1f5f8;
+}
+
+.img-container {
+  max-width: 225px;
+  max-height: 175px;
+  border: 5px solid #c59d5f;
+  border-radius: 5px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.selection {
+  width: 50%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+  padding: 15px 0;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #c59d5f;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.filter-btn {
+  border: transparent;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 8px 2px;
+  color: #c59d5f;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  color: #ffffff;
+  background: #c59d5f;
+  border-radius: 5px;
+}
+
+.breakfast-container {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.food-container {
+  display: flex;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.desc-container {
+  padding: 8px 0 0 10px;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+.price {
+  color: #c59d5f;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
