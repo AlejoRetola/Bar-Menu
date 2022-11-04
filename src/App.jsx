@@ -14,7 +14,9 @@ function App() {
   return (
     <div className="App">
       <Menu toggle={ToggleMenu} />
+      <div className="breakfast-wrapper">
       <Breakfast items={data} type={category} />
+      </div>
     </div>
   );
 }
